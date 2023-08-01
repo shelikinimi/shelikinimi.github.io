@@ -138,6 +138,7 @@
 }
 .paras {
   padding: 0px 65px 0 0;
+  width: 70%;
 }
 .sectionTag {
   padding: 16px 0;
@@ -147,11 +148,25 @@
   text-align: justify;
   text-justify: inter-word;
 }
+
+.thumbnail {
+  /* height: 200px; */
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n {
+  height: 205px;
+}
+
 .thumbnail img {
   width: 250px;
-  border: 2px solid black;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 26px;
-  margin-top: 19px;
+  /* margin-top: 19px; */
 }
 .text-footer {
   text-align: center;
