@@ -248,10 +248,17 @@
 .mapContainer {
   margin-top: 75px;
   height: calc(100dvh - 75px);
+  /* background-color: rgba(0, 0, 0, 0.712); */
 }
 .map {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.map > iframe {
+  height: calc(100dvh - 105px);
+  width: calc(100dvw - 30px);
+  border-radius: 8px;
 }
