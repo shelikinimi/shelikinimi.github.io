@@ -17,7 +17,7 @@
 }
 
 .navbar {
-  background-color: rgb(96, 177, 243);
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,7 @@
 }
 .nav-list li a:hover {
   text-decoration: none;
-  color: rgb(91, 123, 165);
+  color: rgb(63, 63, 63);
 }
 .rightNav {
   width: 30%;
@@ -173,7 +173,7 @@
   /* margin-top: 19px; */
 }
 .text-footer {
-  background-color: rgb(96, 177, 243);
+  background-color: #000000;
   text-align: center;
   padding: 30px 0;
   font-family: "ubuntu", sans-serif;
